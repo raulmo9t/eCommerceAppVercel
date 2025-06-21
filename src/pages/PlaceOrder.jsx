@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useContext, useState } from "react";
 import Title from "../components/Title";
 import CartTotal from "../components/CartTotal";
@@ -5,7 +6,7 @@ import { assets } from "../assets/assets";
 import { ShopContext } from "../context/ShopContext";
 import axios from "axios";
 import { toast } from "react-toastify";
-import { currency } from "../../../admin/src/App";
+// import { currency } from "../../../admin/src/App";
 
 const PlaceOrder = () => {
   const [method, setMethod] = useState("cod");
